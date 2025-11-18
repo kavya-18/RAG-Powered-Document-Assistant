@@ -14,7 +14,7 @@ git clone https://github.com/ek-sai/RAG_PDF_Summarizer.git
 pip install -r requirements.txt
 ```
 
-### 2 ** Create a `.env` file**
+### 2 **Create a `.env` file**
 ```
 OPENAI_API_KEY=your-api-key-here
 ```
@@ -36,13 +36,13 @@ streamlit run app.py
 ### **Step 2: Choose a Mode**
 **Mode 1: Summary Generator**
 
-## ** Choose Your Summary Style** 
+## **Choose Your Summary Style** 
 - **Comprehensive**: Detailed, thorough analysis
 - **Brief**: Quick 2-3 paragraph overview  
 - **Bullet Points**: Key insights in list format
 - **Executive**: Decision-focused summary
 
-## ** Optional Topic Focus** 
+## **Optional Topic Focus** 
 - Enter a specific topic or question
 - Get laser-focused summaries on exactly what you need
 
