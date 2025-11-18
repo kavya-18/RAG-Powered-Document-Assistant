@@ -69,17 +69,20 @@ graph TD
     A[PDF Upload] --> B[Text Extraction]
     B --> C[Smart Chunking]
     C --> D[Vector Embeddings]
-    D --> E[FAISS Index]
+    D --> E[FAISS Index Creation]
     E --> F[Semantic Search]
-    F --> G[Context Retrieval]
-    F --> |Summary Mode|G[Relevant Context Retrieval]
+
+    %% Branch 1: Summary Mode
+    F -->|Summary Mode| G1[Relevant Context Retrieval]
     G1 --> H1[GPT-4 Summary Generation]
 
-    F --> |Q&A Mode| G2[Answer-focused Retrieval]
+    %% Branch 2: Q&A Mode
+    F -->|Q&A Mode| G2[Answer-Focused Retrieval]
     G2 --> H2[GPT-4 Context-Bound Answer]
 
-    H1 --> I[Formatted Summary Output]
-    H2 --> I[Answer Rendering]
+    %% Final Output
+    H1 --> I[Output Rendering]
+    H2 --> I[Output Rendering]
     
 ```
 
