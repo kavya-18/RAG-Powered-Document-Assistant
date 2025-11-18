@@ -33,7 +33,7 @@ streamlit run app.py
 ### **Step 1: Upload Your PDFs** 
 - Supports for even multiple PDFs at once
 
-** Choose a Mode**
+### ** Choose a Mode**
 **Mode 1: Summary Generator**
 
 ### ** Choose Your Summary Style** 
@@ -46,7 +46,7 @@ streamlit run app.py
 - Enter a specific topic or question
 - Get laser-focused summaries on exactly what you need
 
-** Mode 2: Ask Questions (Q&A Mode)**
+### ** Mode 2: Ask Questions (Q&A Mode)**
 
 **Ask questions about anything inside your PDF:**
 
