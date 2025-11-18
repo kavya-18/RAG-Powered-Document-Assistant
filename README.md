@@ -31,8 +31,7 @@ streamlit run app.py
 ##  How to Use
 
 ### **Step 1: Upload Your PDFs** 
-- Drag and drop your PDF files into the sidebar
-- Support for multiple PDFs at once
+- Supports for even multiple PDFs at once
 
 ** Choose a Mode**
 **Mode 1: Summary Generator**
