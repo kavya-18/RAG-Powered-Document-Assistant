@@ -72,8 +72,7 @@ graph TD
     D --> E[FAISS Index]
     E --> F[Semantic Search]
     F --> G[Context Retrieval]
-    F --> |Summary Mode|
-    G[Relevant Context Retrieval]
+    F --> |Summary Mode|G[Relevant Context Retrieval]
     G1 --> H1[GPT-4 Summary Generation]
 
     F --> |Q&A Mode| G2[Answer-focused Retrieval]
