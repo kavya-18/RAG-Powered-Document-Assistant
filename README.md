@@ -33,32 +33,30 @@ streamlit run app.py
 ### **Step 1: Upload Your PDFs** 
 - Supports for even multiple PDFs at once
 
-### ** Choose a Mode**
+### **Step 2: Choose a Mode**
 **Mode 1: Summary Generator**
 
-### ** Choose Your Summary Style** 
+## ** Choose Your Summary Style** 
 - **Comprehensive**: Detailed, thorough analysis
 - **Brief**: Quick 2-3 paragraph overview  
 - **Bullet Points**: Key insights in list format
 - **Executive**: Decision-focused summary
 
-### ** Optional Topic Focus** 
+## ** Optional Topic Focus** 
 - Enter a specific topic or question
 - Get laser-focused summaries on exactly what you need
 
-### ** Mode 2: Ask Questions (Q&A Mode)**
+###  Mode 2: Ask Questions (Q&A Mode)
 
 **Ask questions about anything inside your PDF:**
 
 Examples:
 
-“What is the test date?”
-
-“What are abnormal values?”
+“What is the latest updated date?”
 
 “What was the conclusion of the survey?”
 
-### **Step 4: Generate & Download** 
+### **Step 3: Generate & Download** 
 - Click "Generate RAG Summary"
 - Download your summary with metadata
 
@@ -74,7 +72,8 @@ graph TD
     D --> E[FAISS Index]
     E --> F[Semantic Search]
     F --> G[Context Retrieval]
-    F --> |Summary Mode| G1[Relevant Context Retrieval]
+    F --> |Summary Mode|
+    G[Relevant Context Retrieval]
     G1 --> H1[GPT-4 Summary Generation]
 
     F --> |Q&A Mode| G2[Answer-focused Retrieval]
