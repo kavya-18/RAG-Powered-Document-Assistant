@@ -14,7 +14,7 @@ git clone https://github.com/ek-sai/RAG_PDF_Summarizer.git
 pip install -r requirements.txt
 ```
 
-** Create a `.env` file**
+### 2 ** Create a `.env` file**
 ```
 OPENAI_API_KEY=your-api-key-here
 ```
