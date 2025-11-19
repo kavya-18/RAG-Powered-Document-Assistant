@@ -36,7 +36,7 @@ streamlit run app.py
   Enter a specific topic or question
 
 ### **Step 2: Choose a Mode**
-#**Mode 1: Summary Generator**
+**Mode 1: Summary Generator**
 
  **Choose Your Summary Style** 
 - **Comprehensive**: Detailed, thorough analysis
@@ -44,7 +44,7 @@ streamlit run app.py
 - **Bullet Points**: Key insights in list format
 - **Executive**: Decision-focused summary
 
-#  **Mode 2: Ask Questions (Q&A Mode)**
+**Mode 2: Ask Questions (Q&A Mode)**
 
 **Ask questions about anything inside your PDF:**
 
